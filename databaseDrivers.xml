@@ -1,0 +1,217 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="141+">
+    <driver id="h2.unified" name="H2" dialect="H2">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="oracle" name="Oracle" dialect="Oracle">
+      <option name="auto-sync" value="false" />
+      <option name="auto-commit" value="false" />
+    </driver>
+    <driver id="derby.embedded" name="Derby (Embedded)" dialect="Derby">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sybase.jtds" name="Sybase (jTds)" dialect="Sybase">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="derby.remote" name="Derby (Remote)" dialect="Derby">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sybase.ase" name="Sybase (Native)" dialect="Sybase">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="postgresql" name="PostgreSQL" dialect="PostgreSQL">
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="db2" name="DB2 (LUW)" dialect="DB2">
+      <option name="auto-sync" value="false" />
+      <property name="retrieveMessagesFromServerOnGetMessage" value="true" />
+    </driver>
+    <driver id="sqlserver.ms" name="SQL Server (Microsoft)" dialect="TSQL">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="db2.jtopen" name="DB2 (JTOpen)" dialect="DB2">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="mysql" name="MySQL" dialect="MySQL">
+      <option name="auto-sync" value="true" />
+      <property name="zeroDateTimeBehavior" value="convertToNull" />
+      <property name="tinyInt1isBit" value="false" />
+      <property name="characterEncoding" value="utf8" />
+      <property name="characterSetResults" value="utf8" />
+      <property name="yearIsDateType" value="false" />
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/mysql-connector-java-5.1.35-bin.jar</url>
+      </library>
+    </driver>
+    <driver id="cubrid.jdbc.driver.CUBRIDDriver" name="cubrid.jdbc.driver.CUBRIDDriver" driver-class="cubrid.jdbc.driver.CUBRIDDriver">
+      <url-template name="default" template="jdbc:cubrid:10.24.182.22:30102:ticketlink:xstdev:xstdev123!@#:?charset=UTF-8" />
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/CUBRID-8.2.0_jdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/CUBRID-8.2.1_jdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/CUBRID-8.2.2_jdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/CUBRID-8.3.0_jdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/CUBRID-8.3.1_jdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/CUBRID-8.4.0_jdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/CUBRID-8.4.1_jdbc.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.30011-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.3.5001-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.3.6001-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.3.7001-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.3.8002-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.4.7004-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.4.8004-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.4.9008-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.4.10001-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.4.11004-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.5.0001-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.6.0002-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.9.0002-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.10.0001-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.12.0006-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.13.0003-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.14.0004-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.3.1.0005-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.2.2.7001.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.3.0.1004-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.3.1.0173-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.0.0241-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.0.1008-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.0558-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.1018-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.2032-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.3024-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.4001-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.5002-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.6004-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.7007-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.1.12002-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.3.0150-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.3.1005-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-8.4.4.0227-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.0.0.0478-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.1.0.0212-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.0.0155-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.1.0020-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.2.0003-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.3.0005-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.2.4.0002-cubrid.jar</url>
+      </library>
+      <library>
+        <url>file://$USER_HOME$/Develop/CUBRIDQuery-2014-build-0460-macosx-cocoa/driver/JDBC-9.3.0.0206-cubrid.jar</url>
+      </library>
+    </driver>
+    <driver id="hsqldb.remote" name="HSQLDB (Remote)" dialect="HSQLDB">
+      <option name="auto-sync" value="true" />
+    </driver>
+  </component>
+</application>
