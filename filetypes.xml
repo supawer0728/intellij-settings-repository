@@ -1,0 +1,20 @@
+<application>
+  <component name="FileTypeManager" version="16">
+    <extensionMap>
+      <mapping pattern="ThirdPartyMember" type="CLASS" />
+      <mapping pattern="html" type="DTD" />
+      <mapping pattern="source" type="PLAIN_TEXT" />
+      <mapping pattern="123" type="PLAIN_TEXT" />
+      <mapping pattern="reserve_datetime_result" type="PLAIN_TEXT" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
+      <mapping pattern="destination" type="PLAIN_TEXT" />
+      <mapping pattern="SampleParser.java" type="PLAIN_TEXT" />
+      <mapping pattern="target" type="PLAIN_TEXT" />
+      <mapping pattern="a" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="property" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping pattern="BatchPushDetailSqlMap" type="XML" />
+    </extensionMap>
+  </component>
+</application>
