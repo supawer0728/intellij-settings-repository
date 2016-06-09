@@ -1,11 +1,6 @@
 <application>
   <component name="libraryTable">
-    <library name="Python 2.7.10 (/usr/bin/python) interpreter library">
-      <CLASSES />
-      <JAVADOC />
-      <SOURCES />
-    </library>
-    <library name="Python 2.7.11 (/usr/local/Cellar/python/2.7.11/bin/python) interpreter library">
+    <library name="Python 2.7.9 (/usr/local/Cellar/python/2.7.9/bin/python2.7) interpreter library">
       <CLASSES />
       <JAVADOC />
       <SOURCES />

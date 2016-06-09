@@ -1,10 +1,49 @@
 <application>
   <component name="AppInspectionProfilesVisibleTreeState">
-    <entry key="TempProfile">
+    <entry key="Default">
       <profile-state>
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Error handlingJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Inheritance issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level issuesJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Manifest</id>
+          </State>
+          <State>
+            <id>Modularization issuesJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Portability issuesJava</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -67,23 +106,39 @@
       <option name="ENABLED" value="true" />
     </filter>
     <filter>
-      <option name="PATTERN" value="javassist.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="org.apache.webbeans.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
-      <option name="PATTERN" value="com.ibm.ws.*" />
-      <option name="ENABLED" value="true" />
-    </filter>
-    <filter>
       <option name="PATTERN" value="kotlin.*" />
       <option name="ENABLED" value="true" />
     </filter>
   </component>
   <component name="RefactoringSettings">
+    <option name="renameParameterInHierarchy" value="false" />
+    <option name="RENAME_SEARCH_IN_COMMENTS_FOR_VARIABLE" value="false" />
     <option name="MOVE_PREVIEW_USAGES" value="false" />
+    <option name="RENAME_PARAMETER_IN_HIERARCHY" value="false" />
+  </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://ndeploy.nhnent.com/svn/TicketLinkServer/" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://ndeploy.nhnent.com/svn/TicketLinkServer/" />
+      </list>
+    </option>
+  </component>
+  <component name="SvnBranchMapperManager">
+    <option name="myMapping">
+      <map>
+        <entry key="https://ndeploy.nhnent.com/svn/TicketLinkServer/ticketlink-basebo/tags/1.1.77.3-patch-20150727-1100">
+          <value>
+            <set>
+              <option value="$USER_HOME$/Develop/ticketlink/ticketlink-basebo-rc" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </application>
