@@ -3,14 +3,11 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="http://github.nhnent.com" />
-          <option name="userName" value="jihoon-jeon" />
-        </UrlAndUserName>
-        <UrlAndUserName>
-          <option name="url" value="http://github.com" />
-          <option name="userName" value="jhjeon0728@naver.com" />
+          <option name="url" value="https://github.com/supawer0728/parfait-trpg-server.git" />
+          <option name="userName" value="" />
         </UrlAndUserName>
       </list>
     </option>
+    <option name="cloneParentDir" value="$USER_HOME$/develop/git/parfait-trpg-server" />
   </component>
 </application>

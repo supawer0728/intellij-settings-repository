@@ -1,7 +1,6 @@
 <application>
   <component name="GithubSettings">
-    <option name="LOGIN" value="jihoon-jeon" />
-    <option name="HOST" value="github.nhnent.com" />
+    <option name="LOGIN" value="jhjeon0728@naver.com" />
     <option name="AUTH_TYPE" value="BASIC" />
   </component>
 </application>
