@@ -1,0 +1,8 @@
+<templateSet group="java">
+  <template name="enumvalue" value="int value;&#10;&#10;$CLASS_NAME$(int value) {&#10;  this.value = value;&#10;}&#10;&#10;public int getValue() {&#10;    return this.value;&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
