@@ -5,7 +5,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="bean" value="@org.springframework.context.annotation.Bean&#10;public $BEAN_CLASS$ $BEAN_NAME$() {&#10;    return $RETURN_VALUE$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="bean" value="@org.springframework.context.annotation.Bean&#10;public $BEAN_CLASS$ $BEAN_NAME$() {&#10;    return $RETURN_VALUE$;&#10;}" toReformat="false" toShortenFQNames="true">
     <variable name="BEAN_CLASS" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="BEAN_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="RETURN_VALUE" expression="" defaultValue="" alwaysStopAt="true" />
